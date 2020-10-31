@@ -1,0 +1,13 @@
+@import url(headers.css);
+@import url(links.css);
+@import url(text.css);
+@import url(images.css);
+
+body {
+    background-color: rgba(144,144,144,1.00);
+    margin: 0;
+}
+main {
+    width: 95%;
+    margin: 0 auto;
+}

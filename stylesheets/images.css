@@ -1,0 +1,30 @@
+img {
+    margin: 15px;
+}
+a[href*="echo"] + img {
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-right: 12%;
+    opacity: .3;
+}
+.first img {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+#second img {
+    width: 200px;
+    height: auto;
+    float: left;
+}
+.first img, #second img {
+    border: 1px solid #00de15;
+    border-radius: 100%;
+}
+.first img:hover {
+    content: url("../images/keyboard_hover.jpg");
+}
+#second img:hover {
+    content: url("../images/code_head_hover.jpg");
+}

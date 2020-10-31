@@ -1,0 +1,20 @@
+p {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1.25em;
+    text-indent: 25px;
+}
+p + h2 {
+    margin: 0 0 0 20px;
+}
+
+.note {
+    width: 50%;
+    background-color: rgba(200,200,200,1.00);
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 0 20px 0;
+}
+.first, #second {
+    margin: 0 5%;
+}
+
